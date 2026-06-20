@@ -2,7 +2,7 @@
 
 Fine-tuning the **Prithvi-EO-2.0 (600M)** geospatial foundation model for binary flood segmentation on multi-sensor satellite imagery. Built for **AISEHack Edition 1** (Theme 1: Flood Detection), a national AI hackathon organized by the **Anusandhan National Research Foundation (ANRF)**, co-organized with **IBM** and held at **IIIT Hyderabad** (April 4–5, 2026).
 
-**Final leaderboard score: 0.715 mIoU**
+**Final leaderboard score: 0.714 mIoU**
 
 ---
 
@@ -92,8 +92,14 @@ A.Transpose(p=0.6)
 
 | Metric | Score |
 |---|---|
-| **mIoU (final leaderboard)** | **0.715** |
+| **mIoU (final leaderboard)** | **0.714** |
 | Best val checkpoint | `epoch=22`, val mIoU=0.6947 |
+
+<img width="1990" height="590" alt="image" src="https://github.com/user-attachments/assets/d34314c4-36f7-4b3a-bd67-b409ab244bad" />
+<img width="1990" height="590" alt="image" src="https://github.com/user-attachments/assets/3828e730-0fc3-4bd5-8116-1a0aa5d740e2" />
+<img width="1990" height="590" alt="image" src="https://github.com/user-attachments/assets/7fc6bf55-5bcb-4fb4-9ea5-375c857d9ca4" />
+
+
 
 Visualization uses NIR-Red-Green false color composite (bands 5-4-3) with a red overlay on predicted flood pixels (α=0.4 blend).
 
