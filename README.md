@@ -46,7 +46,8 @@ Rather than freezing the full backbone or fine-tuning everything, a targeted par
 
 This kept the majority of Prithvi's pretrained geospatial representations frozen while allowing the top-level features and decoder to adapt to the flood detection task.
 
-**Trainable parameters**: ~X% of total (decoder + last 4 blocks)
+*Total Parameters:* 649,892,164
+*Trainable Parameters:* 97,559,362 (15.01%) (decoder + last 4 blocks)
 
 ---
 
